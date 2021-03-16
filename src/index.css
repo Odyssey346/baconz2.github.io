@@ -1,6 +1,7 @@
 @font-face {
     font-family: biotif;
-    src: url(https://baconz2.github.io/biotif.ttf);
+    src: url(./fonts/biotif.ttf) format('truetype');
+    font-display: swap; /* this loads a system font while the font is loading */
 }
 
 body {
@@ -19,4 +20,8 @@ img.avatar {
 
 a {
     color: white;
+}
+
+a:hover {
+    color:purple;
 }
