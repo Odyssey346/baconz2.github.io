@@ -1,0 +1,22 @@
+@font-face {
+    font-family: biotif;
+    src: url(https://baconz2.github.io/biotif.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: biotif;
+}
+
+img.avatar {
+    display: block;
+    margin: auto;
+    border-style:solid;
+    border-radius: 50%;
+    border-color:purple;
+}
+
+a {
+    color: white;
+}
